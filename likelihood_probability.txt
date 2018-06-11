@@ -1,6 +1,8 @@
 What is the difference between “likelihood” and “probability”?
-Discrete Random Variables
 
+likelihoods do not have to integrate (or sum) to 1, unlike probabilities
+
+Discrete Random Variables
 Suppose that you have a stochastic process that takes discrete values 
 (e.g., outcomes of tossing a coin 10 times, number of customers who arrive 
 at a store in 10 minutes etc). In such cases, we can calculate the probability 
