@@ -1,0 +1,21 @@
+C and Gamma are the parameters for a nonlinear support vector machine (SVM) with a Gaussian radial basis function kernel.
+
+A standard SVM seeks to find a margin that separates all positive and negative examples. However, 
+this can lead to poorly fit models if any examples are mislabeled or extremely unusual. To account 
+for this, in 1995, Cortes and Vapnik proposed the idea of a "soft margin" SVM that allows some 
+examples to be "ignored" or placed on the wrong side of the margin; this innovation often leads 
+to a better overall fit. C is the parameter for the soft margin cost function, which controls the 
+influence of each individual support vector; this process 
+involves trading error penalty for stability.
+
+A standard SVM is a type of linear classification using dot product. However, in 1992, Boser, Guyan, 
+and Vapnik proposed a way to model more complicated relationships by replacing each dot product with 
+a nonlinear kernel function (such as a Gaussian radial basis function or Polynomial kernel). Gamma is
+the free parameter of the Gaussian radial basis function.
+
+
+A small gamma means a Gaussian with a large variance so the influence of x_j is more, i.e. if x_j is a 
+support vector, a small gamma implies the class of this support vector will have influence on deciding 
+the class of the vector x_i even if the distance between them is large. If gamma is large, then variance 
+is small implying the support vector does not have wide-spread influence. Technically speaking, large gamma 
+leads to high bias and low variance models, and vice-versa.
