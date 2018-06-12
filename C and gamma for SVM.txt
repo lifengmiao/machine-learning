@@ -1,3 +1,7 @@
+https://www.quora.com/What-is-a-intuitive-explanation-of-the-gamma-parameter-in-SVM
+https://www.quora.com/What-are-C-and-gamma-with-regards-to-a-support-vector-machine
+
+
 C and Gamma are the parameters for a nonlinear support vector machine (SVM) with a Gaussian radial basis function kernel.
 
 A standard SVM seeks to find a margin that separates all positive and negative examples. However, 
