@@ -1,0 +1,9 @@
+For SVM:
+C 越大 越overfitting， C 越小越underfitting
+for RBF SVM：
+gama 越大越overfitting， gama越小越underfitting
+
+For logistic regression:
+C -- Inverse of regularization strength; must be a positive float. 
+Like in support vector machines, smaller values specify stronger 
+regularization.
