@@ -1,0 +1,8 @@
+the VC dimension gives you a measure for the "separating capability" of the 
+function family (e.g. hyperplanes, which, in 2D, are lines) by looking at 
+how many points you can actually separate knowing nothing about the distribution of labels (for any combination of labeling).
+
+If your data has 2 dimensions and the function family we're looking at is hyperplanes (which, in 2D, are lines), the VC dimension is 3. Since:
+We can find at least one set of 3 points in 2D all of whose 8 possible labellings can be separated by some hyperplane. The diagram below shows 
+this. The arrow points to the side with the points labelled blue.
+We cannot find any set of 4 points, all of whose possible labellings, are separable by hyperplanes.
